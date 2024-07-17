@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.191361">
+    <testcase classname="To validate Account Creation Feature in Facebook" name="To create Account with ephone number in Fb application" time="11.191361">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.SignUpMap.to_validate_the_browser(SignUpMap.java:46)&#13;&#10;&#9;at ✽.To validate the browser(file:src/test/resources/Features/AccountCreation.feature:43)&#13;&#10;">
+            <![CDATA[When To launch fb url in chrome.............................................passed
+And To click create new acc Button..........................................passed
+And To pass first name in First text box....................................passed
+And To pass last name in surname text box...................................passed
+Then To validate the browser................................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.SignUpMap.to_validate_the_browser(SignUpMap.java:46)
+	at ✽.To validate the browser(file:src/test/resources/Features/AccountCreation.feature:43)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
